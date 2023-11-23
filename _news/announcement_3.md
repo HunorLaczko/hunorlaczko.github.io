@@ -1,8 +1,8 @@
 ---
 layout: post
-date: 2016-01-15 07:59:00-0400
+date: 2023-10-23 01:00:00+0100
 inline: true
-related_posts: false
+related_posts: true
 ---
 
-A simple inline announcement with Markdown emoji! :sparkles: :smile:
+[My first paper accepted at WACV24! 🎉](projects/pyramid-drape)
