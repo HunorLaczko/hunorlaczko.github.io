@@ -21,6 +21,8 @@ giscus_comments: true
     </h3>
 <h5>Universitat Autònoma de Barcelona, Universitat de Barcelona and Computer Vision Center, Spain</h5>
 <div class="publications project-links">
+    <a href="https://openaccess.thecvf.com/content/WACV2024/papers/Laczko_A_Generative_Multi-Resolution_Pyramid_and_Normal-Conditioning_3D_Cloth_Draping_WACV_2024_paper.pdf" class="btn" role="button">Paper</a>
+    <a href="https://openaccess.thecvf.com/content/WACV2024/supplemental/Laczko_A_Generative_Multi-Resolution_WACV_2024_supplemental.pdf" class="btn" role="button">Supplementary</a>
     <a href="https://arxiv.org/abs/2311.02700" class="btn" role="button">arXiv</a>
     <a href="https://github.com/HunorLaczko/pyramid-drape" class="btn" role="button">Code</a>
 </div>
@@ -59,13 +61,13 @@ The proposed pyramid pipeline (right) contains basic VAE modules for each drapin
         <h3 style="text-align: center;">BibTeX</h3>
         <div class="bibtex">
         {% highlight bibtex %}
-@misc{laczkó2023generative,
-      title={A Generative Multi-Resolution Pyramid and Normal-Conditioning 3D Cloth Draping}, 
-      author={Hunor Laczkó and Meysam Madadi and Sergio Escalera and Jordi Gonzalez},
-      year={2023},
-      eprint={2311.02700},
-      archivePrefix={arXiv},
-      primaryClass={cs.CV},
+@InProceedings{Laczko_2024_WACV,
+    author    = {Laczk\'o, Hunor and Madadi, Meysam and Escalera, Sergio and Gonzalez, Jordi},
+    title     = {A Generative Multi-Resolution Pyramid and Normal-Conditioning 3D Cloth Draping},
+    booktitle = {Proceedings of the IEEE/CVF Winter Conference on Applications of Computer Vision (WACV)},
+    month     = {January},
+    year      = {2024},
+    pages     = {8709-8718}
 }
 {% endhighlight %}
 
