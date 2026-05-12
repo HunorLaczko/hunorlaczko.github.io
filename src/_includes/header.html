@@ -7,6 +7,11 @@
 <nav class="navbar">
   <div class="container">
     <a href="/" class="navbrand">HL</a>
+    <button id="menu-toggle" class="menu-toggle" aria-label="Toggle menu" aria-expanded="false">
+      <span class="menu-toggle-bar"></span>
+      <span class="menu-toggle-bar"></span>
+      <span class="menu-toggle-bar"></span>
+    </button>
     <ul class="navlinks">
       <li><a href="/" {% if page.url == '/' %}class="active"{% endif %}>about</a></li>
       <li><a href="/publications/" {% if page.url contains '/publications/' %}class="active"{% endif %}>publications</a></li>
