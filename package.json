@@ -1,0 +1,12 @@
+{
+  "name": "hunorlaczko.github.io",
+  "version": "1.0.0",
+  "scripts": {
+    "build": "eleventy",
+    "dev": "eleventy --serve --port=4321",
+    "start": "eleventy --serve --port=4321"
+  },
+  "dependencies": {
+    "@11ty/eleventy": "^3.0.0"
+  }
+}

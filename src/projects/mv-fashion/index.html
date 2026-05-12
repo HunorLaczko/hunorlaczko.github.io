@@ -1,0 +1,82 @@
+---
+layout: base.html
+title: MV-Fashion
+description: MV-Fashion - Towards Enabling Virtual Try-On and Size Estimation with Multi-View Paired Data
+---
+
+<div class="projectdetail">
+  <h1>MV-Fashion: Towards Enabling Virtual Try-On and Size Estimation with Multi-View Paired Data</h1>
+  <div class="projectmeta">
+    <span><strong>Hunor Laczko</strong>, Libang Jia, Loc-Phat Truong, Diego Hernandez, Sergio Escalera, Jordi Gonzalez, Meysam Madadi</span>
+    <span>CVPR 2026</span>
+  </div>
+  <div class="projectlinks">
+    <a href="https://arxiv.org/abs/2603.08147" target="_blank" rel="noopener">arXiv</a>
+    <a href="https://github.com/HunorLaczko/MV-Fashion" target="_blank" rel="noopener">GitHub</a>
+    <a href="https://hunorlaczko.github.io/MV-Fashion/" target="_blank" rel="noopener">Dataset</a>
+  </div>
+
+  <div class="herotriptych">
+    <img src="/assets/img/mv_fashion/hero_left.webp" alt="MV-Fashion sample left" loading="lazy">
+    <div class="herovid">
+      <video autoplay loop muted playsinline poster="/assets/img/mv_fashion/hero_poster.webp">
+        <source src="/assets/img/mv_fashion/hero_middle.webm" type="video/webm">
+      </video>
+    </div>
+    <img src="/assets/img/mv_fashion/hero_right.webp" alt="MV-Fashion sample right" loading="lazy">
+  </div>
+
+  <div class="statsgrid">
+    <div class="statcard">
+      <div class="statnum">80</div>
+      <div class="statlbl">Subjects</div>
+    </div>
+    <div class="statcard">
+      <div class="statnum">754</div>
+      <div class="statlbl">Garments</div>
+    </div>
+    <div class="statcard">
+      <div class="statnum">68</div>
+      <div class="statlbl">Cameras</div>
+    </div>
+    <div class="statcard">
+      <div class="statnum">3,273</div>
+      <div class="statlbl">Sequences</div>
+    </div>
+    <div class="statcard">
+      <div class="statnum">72.5M</div>
+      <div class="statlbl">Frames</div>
+    </div>
+    <div class="statcard">
+      <div class="statnum">Yes</div>
+      <div class="statlbl">Paired VTON Data</div>
+    </div>
+  </div>
+
+  <div class="projectabstract">
+    <h3>Abstract</h3>
+    <p>
+      Existing 4D human datasets fall short for fashion-specific research, lacking either realistic garment dynamics or task-specific annotations.
+      Synthetic datasets suffer from a realism gap, whereas real-world captures lack the detailed annotations and paired data required for virtual try-on (VTON) and size estimation tasks.
+      To bridge this gap, we introduce MV-Fashion, a large-scale multi-view video dataset engineered for domain-specific fashion analysis.
+      MV-Fashion features 3,273 sequences (72.5 million frames) from 80 diverse subjects wearing 3-10 outfits each.
+      It is designed to capture complex, real-world garment dynamics, including multiple layers and varied styling (e.g. rolled sleeves, tucked shirt).
+      A core contribution is a rich data representation that includes pixel-level semantic annotations, ground-truth material properties like elasticity, and 3D point clouds.
+      Crucially for VTON applications, MV-Fashion provides paired data: multi-view synchronized captures of worn garments alongside their corresponding flat, catalogue images.
+      We leverage this dataset to establish baselines for fashion-centric tasks, including virtual try-on, clothing size estimation, and novel view synthesis.
+    </p>
+  </div>
+
+  <div class="projectsection">
+    <h2>BibTeX</h2>
+    <pre class="bibtex">@misc{laczko2026mvfashion,
+      title={MV-Fashion: Towards Enabling Virtual Try-On and Size Estimation with Multi-View Paired Data},
+      author={Hunor Laczko and Libang Jia and Loc-Phat Truong and Diego Hernandez and Sergio Escalera and Jordi Gonzalez and Meysam Madadi},
+      year={2026},
+      eprint={2603.08147},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV},
+      url={https://arxiv.org/abs/2603.08147}
+}</pre>
+  </div>
+</div>
